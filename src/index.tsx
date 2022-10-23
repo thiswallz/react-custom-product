@@ -4,6 +4,11 @@
 //export * from./ShowCase.tsx.txtse';
 //export * from./CustomBackground.tsx.txtnd';
 //export * from./MaskedImage.tsx.txtge';
-export * from './HoverImage';
 //export * from './AutoSwitchGallery';
 //export * from './SwitchGallery';
+
+import HoverImage from "./HoverImage";
+
+export {
+  HoverImage
+}
