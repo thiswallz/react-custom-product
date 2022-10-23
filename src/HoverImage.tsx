@@ -1,5 +1,13 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import StyleInjector, { hoverImageStyles } from "./styles";
+
+type HoverImageProps = {
+  src: string;
+  alt: string;
+  className: string;
+  style: CSSProperties;
+};
+
 
 
 export default function HoverImage({
@@ -7,7 +15,7 @@ export default function HoverImage({
   alt,
   style,
   className
-}) {
+}: HoverImageProps) {
 
   return (
     <>

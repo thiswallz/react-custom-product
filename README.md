@@ -13,6 +13,9 @@ A _lightweight_ React component providing customization for your product image.
 - For React 16.x, 17.x and 18.x.
 - Multiple animation choices.
 
+## Todo  
+
+- Add SB.
 
 # API DEFINITIONS SOON
 
