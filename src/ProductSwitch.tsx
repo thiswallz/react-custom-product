@@ -14,7 +14,7 @@ export default function ProductSwitch({
   width = '100%',
   height = '100%',
   duration = '1'
-}: ProductSwitch) {
+}: ProductSwitchProps) {
   const [coverOpacity, setCoverOpacity] = useState(width);
   const [transition, setTransition] = useState("none 0s ease 0s");
 
