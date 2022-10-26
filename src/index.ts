@@ -7,8 +7,7 @@
 //export * from './AutoSwitchGallery';
 //export * from './SwitchGallery';
 
-import HoverImage from "./HoverImage";
-
-export {
-  HoverImage
-}
+export { default as HoverImage } from "./HoverImage";
+export { default as Switch } from "./Switch";
+export { default as CustomColor } from "./CustomColor";
+export { default as ShowCase } from "./ShowCase";

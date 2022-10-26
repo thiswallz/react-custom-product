@@ -12,6 +12,7 @@ A _lightweight_ React component providing customization for your product image.
 - Includes builds for CommonJS and ES modules.
 - For React 16.x, 17.x and 18.x.
 - Multiple animation choices.
+- Treeshakable.
 
 ## Todo  
 
