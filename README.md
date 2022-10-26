@@ -8,6 +8,16 @@ Demo
 [https://react-custom-product-demo.vercel.app/](https://react-custom-product-demo.vercel.app/)
 
 
+### Time coding on the projects so far:
+
+React Library
+
+[![wakatime](https://wakatime.com/badge/user/aaf8dd71-b92d-4c70-b476-6cf74feeaf3e/project/c8513b27-d26d-4ffd-966b-f0c77e1275e6.svg)](https://wakatime.com/badge/user/aaf8dd71-b92d-4c70-b476-6cf74feeaf3e/project/c8513b27-d26d-4ffd-966b-f0c77e1275e6)
+
+NextJS Test&Demo
+
+[![wakatime](https://wakatime.com/badge/user/aaf8dd71-b92d-4c70-b476-6cf74feeaf3e/project/5a2934be-0b62-49f3-b715-d1571030f001.svg)](https://wakatime.com/badge/user/aaf8dd71-b92d-4c70-b476-6cf74feeaf3e/project/5a2934be-0b62-49f3-b715-d1571030f001)
+
 
 ## Features
 
@@ -31,6 +41,7 @@ Demo
 - Custom Cover
 - Manual Gallery 
 - Auto Gallery
+- Cach option 
 
 
 # API DEFINITIONS SOON
