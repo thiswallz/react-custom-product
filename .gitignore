@@ -9,3 +9,4 @@ npm-debug.log*
 cypress/screenshots
 cypress/downloads
 .DS_Store
+bundle-analysis.html
