@@ -1,6 +1,6 @@
 import React, { CSSProperties, useEffect, useState } from "react";
 
-type SwitchProps = {
+type ProductSwitchProps = {
   src: string;
   css?: CSSProperties;
   width?: string;
@@ -8,13 +8,13 @@ type SwitchProps = {
   duration?: string;
 }
 
-export default function Switch({
+export default function ProductSwitch({
   src,
   css,
   width = '100%',
   height = '100%',
   duration = '1'
-}: SwitchProps) {
+}: ProductSwitch) {
   const [coverOpacity, setCoverOpacity] = useState(width);
   const [transition, setTransition] = useState("none 0s ease 0s");
 

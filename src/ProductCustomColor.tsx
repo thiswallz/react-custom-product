@@ -1,6 +1,6 @@
 import React, { CSSProperties, useEffect, useState } from "react";
 
-type CustomColorProps = {
+type ProductCustomColorProps = {
   src: string;
   css?: CSSProperties;
   width?: string;
@@ -8,13 +8,13 @@ type CustomColorProps = {
   duration?: string;
 }
 
-export default function CustomColor({
+export default function ProductCustomColor({
   src,
   css = {},
   width = '100%',
   height = '100%',
   duration = '.6'
-}: CustomColorProps) {
+}: ProductCustomColorProps) {
   const [coverWidth, setCoverWidth] = useState(width);
   const [transition, setTransition] = useState("none 0s ease 0s");
 

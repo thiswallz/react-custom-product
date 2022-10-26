@@ -8,6 +8,6 @@
 //export * from './SwitchGallery';
 
 export { default as HoverImage } from "./HoverImage";
-export { default as Switch } from "./Switch";
-export { default as CustomColor } from "./CustomColor";
+export { default as ProductSwitch } from "./ProductSwitch";
+export { default as ProductCustomColor } from "./ProductCustomColor";
 export { default as ShowCase } from "./ShowCase";
