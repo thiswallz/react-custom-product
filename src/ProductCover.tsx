@@ -1,20 +1,32 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 
-export default function CustomCover({
-  width,
-  height,
+type ProductCoverProps = {
+  src: string;
+  cover: string;
+  css?: CSSProperties;
+  width?: string;
+  height?: string;
+  coverWidth?: number;
+  coverHeight?: number;
+};
+
+export default function ProductCover({
   src,
   cover,
-  horizontal = 100,
-  vertical = 100,
-}) {
+  css,
+  width = '100%',
+  height = '100%',
+  coverWidth = 100,
+  coverHeight = 100,
+}: ProductCoverProps) {
 
   return (
-    src && <div
+    <div
       style={{
         width,
         height,
-        position: 'relative'
+        position: 'relative',
+        ...css,
       }}
     >
       {cover && <div
@@ -23,8 +35,8 @@ export default function CustomCover({
           left: 0,
           top: 0,
           backgroundImage: `url('${cover}')`,
-          width: `${horizontal}%`,
-          height: `${vertical}%`,
+          width: `${coverWidth}%`,
+          height: `${coverHeight}%`,
           backgroundSize: `${width} ${height}`,
           zIndex: 10
         }}
@@ -41,5 +53,6 @@ export default function CustomCover({
         }}
       ></div>
     </div>
+
   );
 }

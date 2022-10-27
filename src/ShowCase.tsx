@@ -6,6 +6,7 @@ type ShowCaseProps = {
   bg?: string;
   width?: string;
   height?: string;
+  direction?: 'natural' | 'oposite';
   initialImage?: number;
   css?: CSSProperties;
   throttle?: number;
@@ -18,6 +19,7 @@ export default function ShowCase({
   width = '100%',
   height = '100%',
   bg = "",
+  direction = 'natural',
   initialImage = 0,
   throttle = .04,
   pxThreshold = 4,
@@ -46,6 +48,7 @@ export default function ShowCase({
     e.cancelable && e.preventDefault();
     setIsDragging(false)
   }
+
 
   function handleSetClientX(e: any) {
     if (!isDragging) {

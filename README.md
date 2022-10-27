@@ -112,6 +112,32 @@ export default function Example() {
 | `duration` |  `String` | 1 | Milliseconds animation will last. |
 
 
+## ProductCover - Product color cover.
+
+``` typescript
+import { ProductCover } from 'react-custom-product'
+
+export default function Example() {
+  return  <ProductCover
+            src="/models/1.png"
+            cover="/models/2.png"
+            width="550px"
+            height="400px"
+            coverWidth={50}
+            coverHeight={50} />
+}
+```
+| Prop                   | Type      | Default | Description                            |
+| ---------------------- | --------- | ------- | -------------------------------------------- |
+| `src` |  `String` | `required` | Image. |
+| `cover` |  `String` | `required` | Image which is covering the `src`. |
+| `css` |  `CSSProperties` | {} | pass styles to the container |
+| `width` |  `String` | 100% |  |
+| `height` |  `String` | 100% |  |
+| `coverWidth` |  `Number` | 100 | Percentage number |
+| `height` |  `Number` | 100 | Percentage number |
+
+
 
 [npm-badge]: https://img.shields.io/npm/v/react-custom-product.svg
 [npm]: https://www.npmjs.org/package/react-custom-product
