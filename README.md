@@ -1,6 +1,16 @@
 # react-custom-product
 
-[![npm package][npm-badge]][npm]
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-custom-product">
+    <img src="https://img.shields.io/npm/v/react-custom-product.svg" alt="npm version" >
+  </a>
+  <a href="https://packagephobia.now.sh/result?p=react-custom-product">
+    <img src="https://packagephobia.now.sh/badge?p=react-custom-product" alt="install size" >
+  </a>
+  <a href="https://github.com/rollup/rollup/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/npm/l/react-custom-product.svg" alt="license">
+  </a>
+</p>
 
 A _lightweight_ React component providing customization for your product image.
 
@@ -13,8 +23,8 @@ Demo
 
 - Zero dependencies.
 - Multiple animation choices.
-- Treeshakable.
-- 1.9kb gzipped
+- Treeshakable (if you uise 1 component, others are not included in your bundle).
+- 2kb gzipped
 
 ## Current components  
 
