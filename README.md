@@ -4,7 +4,7 @@
   <a href="https://www.npmjs.com/package/react-custom-product">
     <img src="https://img.shields.io/npm/v/react-custom-product.svg" alt="npm version" >
   </a>
-  <a href="https://badgen.net/github/license/thiswallz/react-custom-product">
+  <a href="https://github.com/thiswallz/react-custom-product/blob/main/LICENSE">
     <img src="https://badgen.net/github/license/thiswallz/react-custom-product" alt="license">
   </a>
  <a href="https://badgen.net/github/checks/thiswallz/react-custom-product">
