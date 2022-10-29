@@ -28,10 +28,13 @@ export default [
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
       terser(),
+      /*
+      removed from main process
       visualizer({
         emitFile: true,
         file: "stats.html",
       })
+      */
     ],
   }
 ];
