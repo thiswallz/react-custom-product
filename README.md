@@ -7,7 +7,7 @@ A _lightweight_ React component providing customization for your product image.
 Demo 
 [https://react-custom-product-demo.vercel.app/](https://react-custom-product-demo.vercel.app/)
 
-
+<image src="ss1.png" width="200px" />
 
 ## Features
 
