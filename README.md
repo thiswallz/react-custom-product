@@ -18,9 +18,11 @@ Demo
 
 ## Current components  
 
-- Custom Color
+- Custom Product Color
 - 3D ShowCase (multiple images are needed)
-- Basic Switch   
+- Product Switch   
+- Product Cover
+- Product Gallery 
 
 ## Under construction  
 
@@ -28,10 +30,7 @@ Demo
 - Hover product
 - Masked Product
 - Custom Background
-- Custom Cover
-- Manual Gallery 
 - Auto Gallery
-- Cach option 
 
 
 # DEFINITIONS
