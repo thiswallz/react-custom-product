@@ -20,12 +20,28 @@
     <a href="https://badgen.net/bundlephobia/tree-shaking/react-custom-product">
     <img src="https://badgen.net/bundlephobia/tree-shaking/react-custom-product"  alt="types included?" >
   </a>
+
+</p>
+<p align="center">
   <a href="https://sonarcloud.io/project/overview?id=thiswallz_react-custom-product">
     <img src="https://sonarcloud.io/api/project_badges/measure?project=thiswallz_react-custom-product&metric=sqale_rating"  alt="Maintainability" >
   </a>
-
+    <a href="https://sonarcloud.io/project/overview?id=thiswallz_react-custom-product">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=thiswallz_react-custom-product&metric=security_rating"  alt="Security" >
+  </a>
+     <a href="https://sonarcloud.io/project/overview?id=thiswallz_react-custom-product">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=thiswallz_react-custom-product&metric=reliability_rating"  alt="reliability" >
+  </a>
+       <a href="https://sonarcloud.io/project/overview?id=thiswallz_react-custom-product">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=thiswallz_react-custom-product&metric=bugs"  alt="bugs" >
+  </a>
+        <a href="https://sonarcloud.io/project/overview?id=thiswallz_react-custom-product">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=thiswallz_react-custom-product&metric=vulnerabilities"  alt="vulnerabilities" >
+  </a> 
   
 </p>
+
+
 
 A _lightweight_ React component providing customization for your product image.
 
