@@ -1,6 +1,6 @@
 {
   "name": "react-custom-product",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Custom Product Images React Component",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
