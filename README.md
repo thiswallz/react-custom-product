@@ -9,7 +9,6 @@ Demo
 
 
 
-
 ## Features
 
 - Zero dependencies.
@@ -35,7 +34,7 @@ Demo
 - Cach option 
 
 
-# API DEFINITIONS SOON
+# DEFINITIONS
 
 ## ProductCustomColor - change your products color and have a nice animation.
 
@@ -87,8 +86,9 @@ export default function Example() {
 | `bg` |  `String` | '' | Image for background. |
 | `width` |  `String` | 100% | width size |
 | `height` |  `String` | 100% | height size |
+| `defaultDirection` |  `Boolean` | true| In case the drag and drop direction should goes to the opposite direction. |
 | `initialImage` |  `Number` | 0 | Image you want to be show at first (array position) |
-| `css` |  `CSSProperties` | {} | pass styles to the container |
+| `css` |  `CSSProperties` | {} | styles to the container |
 | `throttle` |  `Number` | .04 | Milliseconds the mouse will be read to calculate and mvoe right/left. |
 | `pxThreshold` |  `Number` | 4 | How many pixels are needed in order to make the decition of movement. |
 
@@ -106,13 +106,15 @@ export default function Example() {
 | Prop                   | Type      | Default | Description                            |
 | ---------------------- | --------- | ------- | -------------------------------------------- |
 | `src` |  `String` | `required` | Image (after you change the src, will trigger the effect). |
-| `css` |  `CSSProperties` | {} | pass styles to the container |
+| `css` |  `CSSProperties` | {} | styles to the container |
 | `width` |  `String` | 100% |  |
 | `height` |  `String` | 100% |  |
 | `duration` |  `String` | 1 | Milliseconds animation will last. |
 
 
 ## ProductCover - Product color cover.
+
+Colors cover can be manually manipulated with this component.
 
 ``` typescript
 import { ProductCover } from 'react-custom-product'
@@ -131,11 +133,38 @@ export default function Example() {
 | ---------------------- | --------- | ------- | -------------------------------------------- |
 | `src` |  `String` | `required` | Image. |
 | `cover` |  `String` | `required` | Image which is covering the `src`. |
-| `css` |  `CSSProperties` | {} | pass styles to the container |
+| `css` |  `CSSProperties` | {} | styles to the container |
 | `width` |  `String` | 100% |  |
 | `height` |  `String` | 100% |  |
 | `coverWidth` |  `Number` | 100 | Percentage number |
-| `height` |  `Number` | 100 | Percentage number |
+| `coverHeight` |  `Number` | 100 | Percentage number |
+
+
+## SwitchGallery - Simple gallery.
+
+Simple gallery to show multiple product images
+
+``` typescript
+export default function SwitchGalleryExample() {
+  const images = [
+    '/images/1.png',
+    '/images/2.png',
+    '/images/3.png',
+    '...'
+  ]
+
+  return <SwitchGallery
+    images={images}
+  />
+}
+```
+| Prop                   | Type      | Default | Description                            |
+| ---------------------- | --------- | ------- | -------------------------------------------- |
+| `images` |  `String[]` | `required` | Images. |
+| `css` |  `CSSProperties` | {} | container styles |
+| `cssImage` |  `CSSProperties` | {} | current image styles |
+| `cssImageSelectorContainer` |  `CSSProperties` | {} | container preview images styles |
+| `cssImageSelector` |  `CSSProperties` | {} | preview images styles |
 
 
 

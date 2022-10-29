@@ -1,4 +1,5 @@
 import React, { CSSProperties, useEffect, useState } from "react";
+import { loadImage } from "./utils";
 
 type ProductCustomColorProps = {
   src: string;
@@ -24,16 +25,21 @@ export default function ProductCustomColor({
   useEffect(() => {
     setTransition(`width ${duration}s ease-in-out 0s`);
 
-    setImage(src)
-    setCoverWidth("0px");
+    loadImage(src).then(() => {
+      setImage(src)
+      setCoverWidth("0px");
+      handleTransition()
+    });
+  }, [src])
 
+  function handleTransition() {
     setTimeout(() => {
       setTransition("none 0s ease 0s");
       setCoverWidth(width);
       setCover(src)
       setImage('')
     }, parseFloat(duration) * 1000);
-  }, [src])
+  }
 
   return (
     <>

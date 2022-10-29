@@ -12,3 +12,4 @@ export { default as ProductSwitch } from "./ProductSwitch";
 export { default as ProductCustomColor } from "./ProductCustomColor";
 export { default as ShowCase } from "./ShowCase";
 export { default as ProductCover } from "./ProductCover";
+export { default as SwitchGallery } from "./SwitchGallery";

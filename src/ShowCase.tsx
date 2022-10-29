@@ -6,7 +6,7 @@ type ShowCaseProps = {
   bg?: string;
   width?: string;
   height?: string;
-  direction?: 'natural' | 'oposite';
+  defaultDirection?: boolean;
   initialImage?: number;
   css?: CSSProperties;
   throttle?: number;
@@ -19,7 +19,7 @@ export default function ShowCase({
   width = '100%',
   height = '100%',
   bg = "",
-  direction = 'natural',
+  defaultDirection = true,
   initialImage = 0,
   throttle = .04,
   pxThreshold = 4,
@@ -57,9 +57,9 @@ export default function ShowCase({
     const nextClientX = e.clientX ? e.clientX : e.targetTouches[0]?.clientX
 
     if ((nextClientX + Number(pxThreshold)) < clientX) {
-      handleMoveLeft()
+      defaultDirection ? handleMoveLeft() : handleMoveRight()
     } else if ((nextClientX - Number(pxThreshold)) > clientX) {
-      handleMoveRight()
+      defaultDirection ? handleMoveRight() : handleMoveLeft()
     }
 
     setClientX(nextClientX)
