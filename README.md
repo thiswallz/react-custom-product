@@ -4,14 +4,14 @@
   <a href="https://www.npmjs.com/package/react-custom-product">
     <img src="https://img.shields.io/npm/v/react-custom-product.svg" alt="npm version" >
   </a>
-  <a href="https://github.com/rollup/rollup/blob/master/LICENSE.md">
-    <img src="https://img.shields.io/npm/l/react-custom-product.svg" alt="license">
+  <a href="https://badgen.net/github/license/thiswallz/react-custom-product">
+    <img src="https://badgen.net/github/license/thiswallz/react-custom-product" alt="license">
   </a>
-    <a href="https://badgen.net/bundlephobia/minzip/react-custom-product">
-    <img src="https://badgen.net/bundlephobia/minzip/react-custom-product" alt="install size" >
+ <a href="https://badgen.net/github/checks/thiswallz/react-custom-product">
+    <img src="https://badgen.net/github/checks/thiswallz/react-custom-product"  alt="Dependendencies" >
   </a>
-    <a href="https://badgen.net/bundlephobia/dependency-count/react-custom-product">
-    <img src="https://badgen.net/bundlephobia/dependency-count/react-custom-product"  alt="Dependendencies" >
+  <a href="https://badgen.net/bundlephobia/dependency-count/react-custom-product">
+    <img src="https://badgen.net/bundlephobia/dependency-count/react-custom-product"  alt="Dependencies" >
   </a>
   
   <a href="https://badgen.net/npm/types/react-custom-product">
