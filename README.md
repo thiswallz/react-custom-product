@@ -4,18 +4,23 @@
   <a href="https://www.npmjs.com/package/react-custom-product">
     <img src="https://img.shields.io/npm/v/react-custom-product.svg" alt="npm version" >
   </a>
-  <a href="https://packagephobia.now.sh/result?p=react-custom-product">
-    <img src="https://packagephobia.now.sh/badge?p=react-custom-product" alt="install size" >
-  </a>
   <a href="https://github.com/rollup/rollup/blob/master/LICENSE.md">
     <img src="https://img.shields.io/npm/l/react-custom-product.svg" alt="license">
   </a>
-    <a href="https://packagephobia.now.sh/result?p=react-custom-product">
-    <img src="https://badgen.net/npm/dw/react-custom-product" alt="install size" >
+    <a href="https://badgen.net/bundlephobia/minzip/react-custom-product">
+    <img src="https://badgen.net/bundlephobia/minzip/react-custom-product" alt="install size" >
   </a>
+    <a href="https://badgen.net/bundlephobia/dependency-count/react-custom-product">
+    <img src="https://badgen.net/bundlephobia/dependency-count/react-custom-product"  alt="Dependendencies" >
+  </a>
+  
   <a href="https://badgen.net/npm/types/react-custom-product">
     <img src="https://badgen.net/npm/types/react-custom-product"  alt="types included?" >
   </a>
+    <a href="https://badgen.net/bundlephobia/tree-shaking/react-custom-product">
+    <img src="https://badgen.net/bundlephobia/tree-shaking/react-custom-product"  alt="types included?" >
+  </a>
+  
   
 </p>
 
