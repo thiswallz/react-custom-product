@@ -99,7 +99,7 @@ export default function Example() {
 | `initialImage` |  `Number` | 0 | Image you want to be show at first (array position) |
 | `css` |  `CSSProperties` | {} | styles to the container |
 | `throttle` |  `Number` | .04 | Milliseconds the mouse will be read to calculate and mvoe right/left. |
-| `pxThreshold` |  `Number` | 4 | How many pixels are needed in order to make the decition of movement. |
+| `pxThreshold` |  `Number` | 4 | How many pixels are needed in order to make the decision of movement. |
 
 
 ## ProductSwitch - Simple - switch from different products shapes.
