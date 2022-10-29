@@ -13,6 +13,9 @@
     <a href="https://packagephobia.now.sh/result?p=react-custom-product">
     <img src="https://badgen.net/npm/dw/react-custom-product" alt="install size" >
   </a>
+  <a href="https://badgen.net/npm/types/react-custom-product">
+    <img src="https://badgen.net/npm/types/react-custom-product"  alt="types included?" >
+  </a>
   
 </p>
 
@@ -28,7 +31,7 @@ Demo
 - Zero dependencies.
 - Multiple animation choices.
 - Treeshakable (if you uise 1 component, others are not included in your bundle).
-- 2kb gzipped
+- 2.4kb gzipped (https://bundlephobia.com/package/react-custom-product)
 
 ## Current components  
 
