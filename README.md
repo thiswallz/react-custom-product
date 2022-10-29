@@ -20,7 +20,10 @@
     <a href="https://badgen.net/bundlephobia/tree-shaking/react-custom-product">
     <img src="https://badgen.net/bundlephobia/tree-shaking/react-custom-product"  alt="types included?" >
   </a>
-  
+  <a href="https://sonarcloud.io/project/overview?id=thiswallz_react-custom-product">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=thiswallz_react-custom-product&metric=sqale_rating"  alt="Maintainability" >
+  </a>
+
   
 </p>
 
