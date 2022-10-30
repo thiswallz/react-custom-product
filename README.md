@@ -211,6 +211,53 @@ export default function SwitchGalleryExample() {
 
 
 
+
+## ProductHotspot - Image Hotspot.
+
+Hover some hotspot of your product and show info
+
+``` typescript
+
+const CustomMessage1 = () => <a href="#">Simple link</a>
+const CustomMessage2 = () => <div>Custom message/info</div>
+
+export default function ProductHotspotExample() {
+
+  const spots = [
+    {
+      x: '35%',
+      y: '70%',
+      children: CustomMessage1()
+    },
+    {
+      x: '65%',
+      y: '20%',
+      children: CustomMessage2()
+    }
+  ]
+
+  return <ProductHotspot 
+    src={`hotspot/1.webp`} spots={spots} height="auto" />
+}
+```
+| Prop                   | Type      | Default | Description                            |
+| ---------------------- | --------- | ------- | -------------------------------------------- |
+| `src` |  `String` | `required` | Image. |
+| `spots` |  `ProductHotspotPoint[]` | {} | positions and react element for each hotspot |
+| `css` |  `CSSProperties` | {} | container styles |
+| `width` |  `String` | 100% |  |
+| `height` |  `String` | 100% |  |
+| `alt` |  `String` | '' |  image alt attribute |
+
+
+| CSS Class                   | Description                            |
+| ---------------------- | -------------------------------------------- |
+| `__react_custom_product__hotspot_point_container` |  Spot container. |
+| `__react_custom_product__hotspot_point` |  Point. |
+| `__react_custom_product__hotspot_message` |  Custom spot message container. |
+
+
+
 [npm-badge]: https://img.shields.io/npm/v/react-custom-product.svg
 [npm]: https://www.npmjs.org/package/react-custom-product
 
