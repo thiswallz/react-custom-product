@@ -67,10 +67,10 @@ Demo
 - Product Switch   
 - Product Cover
 - Product Gallery 
+- Hotspot
 
 ## Under construction  
 
-- Hotspot
 - Hover product
 - Masked Product
 - Custom Background
