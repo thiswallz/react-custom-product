@@ -20,6 +20,9 @@
     <a href="https://badgen.net/bundlephobia/tree-shaking/react-custom-product">
     <img src="https://badgen.net/bundlephobia/tree-shaking/react-custom-product"  alt="types included?" >
   </a>
+    <a href="https://badgen.net/bundlephobia/minzip/react-custom-product">
+    <img src="https://badgen.net/bundlephobia/minzip/react-custom-product"  alt="Size" >
+  </a>
 
 </p>
 <p align="center">
