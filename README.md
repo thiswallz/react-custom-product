@@ -15,13 +15,13 @@
   </a>
   
   <a href="https://badgen.net/npm/types/react-custom-product">
-    <img src="https://badgen.net/npm/types/react-custom-product"  alt="types included?" >
+    <img src="https://badgen.net/npm/types/react-custom-product"  />
   </a>
     <a href="https://badgen.net/bundlephobia/tree-shaking/react-custom-product">
-    <img src="https://badgen.net/bundlephobia/tree-shaking/react-custom-product"  alt="types included?" >
+    <img src="https://badgen.net/bundlephobia/tree-shaking/react-custom-product"  />
   </a>
     <a href="https://badgen.net/bundlephobia/minzip/react-custom-product">
-    <img src="https://badgen.net/bundlephobia/minzip/react-custom-product"  alt="Size" >
+    <img src="https://badgen.net/bundlephobia/minzip/react-custom-product" />
   </a>
 
 </p>
