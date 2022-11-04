@@ -8,12 +8,11 @@
     <img src="https://badgen.net/github/license/thiswallz/react-custom-product" alt="license">
   </a>
  <a href="https://badgen.net/github/checks/thiswallz/react-custom-product">
-    <img src="https://badgen.net/github/checks/thiswallz/react-custom-product"  alt="Dependendencies" >
+    <img src="https://badgen.net/github/checks/thiswallz/react-custom-product" />
   </a>
   <a href="https://badgen.net/bundlephobia/dependency-count/react-custom-product">
-    <img src="https://badgen.net/bundlephobia/dependency-count/react-custom-product"  alt="Dependencies" >
+    <img src="https://badgen.net/bundlephobia/dependency-count/react-custom-product" />
   </a>
-  
   <a href="https://badgen.net/npm/types/react-custom-product">
     <img src="https://badgen.net/npm/types/react-custom-product"  />
   </a>
@@ -256,6 +255,24 @@ export default function ProductHotspotExample() {
 | `__react_custom_product__hotspot_point` |  Point. |
 | `__react_custom_product__hotspot_message` |  Custom spot message container. |
 
+
+## ProductMask - Svg Mask for products
+
+You can choose either our 2 shapes or add yours.
+
+``` typescript
+export default function ProductMaskExample() {
+  return <ProductMask type='2' src={`/autos/mask/1.webp`} css={{scale: '1.2'}} />
+}
+```
+
+| Prop                   | Type      | Default | Description                            |
+| ---------------------- | --------- | ------- | -------------------------------------------- |
+| `src` |  `String` | `required` | Image. |
+| `alt` |  `String` | '' | Alt attribute. |
+| `type` |  `String` | '1' | Shape, options: 1 or 2. If you add a new one, use the id of the new element: `id="clip-polygon--3"`, here your type would be 3. |
+| `css` |  `CSSProperties` | {} | container styles |
+| `polygon` |  `React.Element` | undefined | Custom SVG Polygon Element. e.g. `<clipPath id="clip-polygon--3"><polygon points=" 8 0, 8.1 0, 8.1 11, 0 11"></polygon><rect x="8" y="0" width="14.2" height="11"></rect><polygon points="22.1 0, 30.2 0, 22.2 11, 22.1 11"></polygon></clipPath>` |
 
 
 [npm-badge]: https://img.shields.io/npm/v/react-custom-product.svg

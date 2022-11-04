@@ -5,3 +5,4 @@ export { default as ShowCase } from "./ShowCase";
 export { default as ProductCover } from "./ProductCover";
 export { default as SwitchGallery } from "./SwitchGallery";
 export { default as ProductHotspot } from "./ProductHotspot";
+export { default as ProductMask } from "./ProductMask";
